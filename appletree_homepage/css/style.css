@@ -5,9 +5,10 @@ body {
   color: #FF0000;
   font-family: Helvetica;
 }
-hr {
-  width:200px;
+h1 {
+  color: #000;
 }
 p{
-  font-size:22px;
+	text-align: left;
+  	font-size:36px;
 }
