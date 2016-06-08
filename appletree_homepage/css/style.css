@@ -1,11 +1,13 @@
 body {
-     color: (255,0,0);
-
+  text-align: center;
+  background-color:#FFF;
+  background-size: cover;
+  color: #FF0000;
+  font-family: Helvetica;
 }
-h1 {
-     color: (200,55,0);
-
+hr {
+  width:200px;
 }
-h2 {
-     font-style: italic;
+p{
+  font-size:22px;
 }
