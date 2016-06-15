@@ -1,21 +1,41 @@
+* {margin:0;padding:0;box-sizing:border-box;}
 body {
-  text-align: left;
-  background-size: cover;
-  color: #FF0000;
-  font-family: Helvetica;
-  font-size:24px;
+	text-align: left;
+	color: #222;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:16px;
+}
+section {
+	padding:5em 0;
 }
 h1 {
-  color: #000;
-  font-size:48px;
-  text-align: center;
+	font-size:3em;
 }
 h2{
 	text-align: center;
-  	font-size:36px;
+  	font-size:2em;
   	font-style: italic;
 }
-div{
-text-align: left;
-color: #000;
+p {
+	margin-top:1em;
+}
+#splash {
+	background:url(../images/appletreeresidentteacherhomepageimage.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	height: 70vh;
+	padding: 10em 0 0;
+	text-align:center;
+}
+.logo {
+	margin:0 0 1em;
+}
+.cta {
+	background:#ff0000;
+	border-radius:.25em;
+	color:#fff;
+	display:inline-block;
+	margin-top:1em;
+	padding:1em 2em;
+	text-decoration:none;
 }
