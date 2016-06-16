@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Mystery+Quest)
 * {margin:0;padding:0;box-sizing:border-box;}
 body {
 	text-align: left;
@@ -9,7 +10,7 @@ section {
 	padding:5em 0;
 }
 h1 {
-	font-size:60px;
+	font-size:20px;
 	text-align: center;
 	color: #FFF;
 }
