@@ -18,6 +18,10 @@ h2{
 }
 p {
 	margin-top:1em;
+	font-size:18px;
+  	line-height:28px;
+  	margin:30px;
+
 }
 #splash {
 	background:url(../images/newhomepageimage.jpg);
