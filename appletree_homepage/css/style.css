@@ -23,6 +23,7 @@ h2{
   	font-style: italic;
     padding-top: .8em;
     padding-bottom:.8em;
+    border-bottom: 4px solid black;
 }
 p {
 	margin-top:1em;
