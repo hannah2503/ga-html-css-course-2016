@@ -37,6 +37,7 @@ p {
 	font-size:16px;
   	line-height:1.5em;
   	margin:2em;
+  	background: rgba(100,150,150,.5);
 
 } #splash {     background:url(../images/newhomepageimage.jpg);
 background-size:cover;     background-repeat:no-repeat;     height: 70vh;
