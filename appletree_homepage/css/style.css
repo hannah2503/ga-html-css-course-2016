@@ -23,6 +23,9 @@ a{
 	background-color: #ff7900;
 	color:white;
 	text-decoration: none;
+	display: block;
+	padding: 10px;
+	width: 200px;
 }
 h1 {
 	font-size:48px;
