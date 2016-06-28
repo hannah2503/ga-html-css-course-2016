@@ -27,6 +27,10 @@ a{
 	padding: 10px;
 	width: 200px;
 }
+a:hover {
+	background-color: #aaaaaa;
+}
+}
 h1 {
 	font-size:48px;
 	text-align: center;
