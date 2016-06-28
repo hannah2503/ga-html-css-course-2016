@@ -15,6 +15,15 @@ nav{
 section {
 	padding:5em 0;
 }
+nav {
+	background-color: #aaaaaa;
+	font-family: Arial, sans-serif;
+}
+a{
+	background-color: #ff7900;
+	color:white;
+	text-decoration: none;
+}
 h1 {
 	font-size:48px;
 	text-align: center;
