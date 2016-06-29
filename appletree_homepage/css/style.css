@@ -9,38 +9,40 @@ body {
 nav{
    background: #c0dec5;
    margin: 0em;
-   padding: 2em 3em 0 3em;
+   /* padding: 2em 3em 0 3em; */
    text-align: center;
 }
-section {
-  	padding:5em 0;
+.column {
+  	padding: 5em 1em;
   	font-size: 1.2em;
   	width: 50%;
-  	display: inline-block;
+  	float: left;
 }
 #main column {
-  float: left;
+	float: left;
 }
 #side column{
   float:right;
 }
 nav {
-	background-color: #aaaaaa;
+	background-color: orange;
 	font-family: Arial, sans-serif;
+	float: right;
 }
-a{
-	background-color: #ff7900;
+nav a{
 	color:white;
 	text-decoration: none;
-	display: block;
-	float:left;
-	padding: 2  
-	0px;
-	margin: 1.8em;
-	
+	display: inline-block;
+	padding: 20px;
+	/* margin: 1.8em; */
 }
 a:hover {
-	background-color: #aaaaaa;
+	color: rgba(255,255,255,.75);
+}
+header img {
+	width: 10em;
+    float: left;
+    margin: .5em .5em 0;
 }
 .clearfix:after {
 	visibility: hidden;
@@ -55,8 +57,6 @@ h1 {
 	text-align: center;
 	color: #FFF;
 	font-family:'Mystery Quest', cursive;
-	padding-top: .8em;
-    padding-bottom:.8em;
 }
 h2{
 	text-align: center;
@@ -73,9 +73,44 @@ p {
   	line-height:1.5em;
   	margin:2em;
 } 
-#splash {     background:url(http://aelpcs.github.io/appletree_homepage/images/newimageforfellowwebsite.jpeg);
-background-size:cover;     background-repeat:no-repeat;     height: 70vh;
-padding: 10em 0 0;     text-align:center; } .logo {     margin:0 0 1em; } .cta
-{     background:#ff0000;     border-radius:.25em;     color:#fff;     display
-:inline-block;     margin-top:1em;     padding:1em 2em;     text-
-decoration:none; } footer {   text-align: center;   padding: 1em 0; background: rgba(100,150,150,.5); clear:both;}
+#splash {
+	background:url(http://aelpcs.github.io/appletree_homepage/images/newimageforfellowwebsite.jpeg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	height: 85vh;
+	padding: 10em 0 0;
+	text-align:center;
+}
+#splash div {
+    display: inline-block;
+    background: orange;
+    padding: 3em;
+    border-radius: .25em;
+} 
+.logo {
+	margin:0 0 1em;
+} 
+.cta{
+	background:#ff0000;
+	border-radius:.25em;     
+	color:#fff;     
+	display:inline-block;     
+	margin-top:1em;     
+	padding:1em 2em;     
+	text-decoration:none;
+}
+.wrapper {
+	max-width:75em;
+	margin:auto;
+}
+#results {
+	max-width:37.5em;
+	margin:auto;
+}
+footer {
+	text-align: center;   
+	padding: 1em 0; 
+	background: rgba(100,150,150,.5); 
+	clear:both;
+	margin-top:2em
+}
