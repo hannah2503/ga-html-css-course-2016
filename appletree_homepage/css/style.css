@@ -13,7 +13,16 @@ nav{
    text-align: center;
 }
 section {
-	padding:5em 0;
+  	padding:5em 0;
+  	font-size: 1.2em;
+  	width: 50%;
+  	display: inline-block;
+}
+#main column {
+  float: left;
+}
+#side column{
+  float:right;
 }
 nav {
 	background-color: #aaaaaa;
