@@ -1,5 +1,8 @@
 body {
     background-color: #E3E7E3;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    height: 100%;
+    font-weight: lighter;
 }
 
 h1 {
