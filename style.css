@@ -7,7 +7,11 @@ body {
 
 h1 {
     color: 016318;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-weight: lighter;
 }
 p {
     colour: 016318;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-weight: lighter;
 }
