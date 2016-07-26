@@ -7,17 +7,8 @@ body {
 
 h1 {
     text-align: center;
+    background-color:#f2e6ff 30%;
     color: #FFFFFF;
     font-family:Helvetica, sans-serif;
     font-size: 30px;
-}
-body{
-  font-family: 'Noto Sans', sans-serif;
-	margin:0;
-}
-header{
-	width:100%; 
-	background:#1d1f20; 
-	height:50px; 
-	line-height:50px;
 }
