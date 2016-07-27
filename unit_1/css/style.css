@@ -19,9 +19,9 @@ body {
     text-align: center;
     font-size: 15px;
 }
-p {
+#p1 {
     width: 300px;
-    border: 25px solid white;
+    border: 15px solid white;
     padding: 25px;
     margin: 25px;
 }
