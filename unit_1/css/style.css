@@ -24,7 +24,10 @@ p {
     border-radius: 5px;
 }
 div {
+    position: absolute;
+    top: 30px;
+    right: 10px;
     height: 200px;
     width: 50%;
-    background-color: powderblue;
+    background-color: rgba (242, 230, 255, 0.2);
 }
