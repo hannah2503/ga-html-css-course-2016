@@ -19,20 +19,6 @@ body {
     text-align: center;
     font-size: 15px;
 }
-div.img {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: center;
-    width: 180px;
-}
 
-div.img:hover {
-    border: 1px solid #777;
-}
-
-div.img img {
-    width: 100%;
-    height: auto;
-}
 
 
