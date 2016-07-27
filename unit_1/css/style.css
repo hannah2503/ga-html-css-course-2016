@@ -19,12 +19,8 @@ body {
     text-align: center;
     font-size: 15px;
 }
-
-div {
-    position: absolute;
-    top: 200px;
-    left: 80px;
-    height: 200px;
-    width: 50%;
-    background-color: rgba (242, 230, 255, 0.2);
+div { 
+    float: left
+    margin: 0 0 10px 10px;
+    clear: left;
 }
