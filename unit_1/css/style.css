@@ -1,12 +1,12 @@
 h1 {
-    text-align: center;
+    text-align: left;
     background-color:rgba(242, 230, 255, 0.5);
     color: #FFFFFF;
     font-family:Helvetica, sans-serif;
     font-size: 30px;
 }
 h3 {
-    text-align: center;
+    text-align: left;
     color: #FFFFFF;
     font-family: Helvetica, sans-serif;
     font-size: 20px;
