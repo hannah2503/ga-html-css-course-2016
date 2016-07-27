@@ -22,7 +22,7 @@ body {
 div.img {
     margin: 5px;
     border: 1px solid #ccc;
-    float: left;
+    float: center;
     width: 180px;
 }
 
@@ -35,7 +35,4 @@ div.img img {
     height: auto;
 }
 
-div.desc {
-    padding: 15px;
-    text-align: center;
-}
+
