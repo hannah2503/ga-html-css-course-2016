@@ -11,26 +11,26 @@ h2 {
     text-align: right;
     padding: 0.5%;
     color: #000000;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Roboto', Helvetica, sans-serif;
     font-size: 20px;
 }
 body {
     background: #FFFFFF;
     background-size: cover;
     color: #000;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Roboto', Helvetica, sans-serif;
     text-align: center;
     font-size: 15px;
 }
 
 #pcontact {
     font-family: serif;
-    text-align: left;
+    text-align: right;
 }
 
 div {
-    margin: 25px;
-    padding: 45px;
+    margin: 40px;
+    padding: 40px;
 }
 
 
