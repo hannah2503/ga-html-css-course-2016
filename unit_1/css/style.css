@@ -23,9 +23,14 @@ body {
     font-size: 15px;
 }
 
+#contact {
+    font-family: serif;
+    text-align: left;
+}
+
 div {
-    margin: 20px;
-    padding: 10px;
+    margin: 25px;
+    padding: 45px;
 }
 
 
