@@ -1,14 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
 
-nav {
-    text-align: left;
-    background-color:rgba(242, 230, 255, 0.5);
-    padding:0.5%;
-    color: #000000;
-    font-family: 'Roboto', Helvetica, sans-serif;
-    font-size: 30px;
-}
-
 body {
     background: #FFFFFF;
     background-size: cover;
@@ -16,6 +7,19 @@ body {
     font-family: 'Roboto', Helvetica, sans-serif;
     text-align: center;
     font-size: 15px;
+}
+nav {
+    text-align: left;
+    background-color:rgba(242, 230, 255, 0.5);
+    padding:0.5%;
+    color: #000000;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 30px;
+    line-height: 120px;
+}
+
+img #logo {
+    position:relative;
 }
 
 
@@ -37,7 +41,14 @@ li {
     display: inline;
   
 }
-
+body {
+    background: #FFFFFF;
+    background-size: cover;
+    color: #000;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    text-align: center;
+    font-size: 15px;
+}
 section #toprow {
   padding: 0;
   margin: 0;
