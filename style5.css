@@ -46,13 +46,15 @@ body {
     font-size: 15px;
 }
 section #toprow {
-  padding: 0;
-  margin: 0;
+  padding: 0.5;
+  margin: 0.5;
+  display: inline;
 }
 
 section #secondrow {
-    padding: 0;
-    margin: 0;
+    padding: 0.5;
+    margin: 0.5;
+    display:inline;
 }
 
 div #project1 {
