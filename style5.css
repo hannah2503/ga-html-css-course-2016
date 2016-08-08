@@ -3,7 +3,7 @@ header {
   
 }
 
-nav #navtop {
+nav {
     text-align: left;
     background-color:rgba(242, 230, 255, 0.5);
     padding:0.5%;
@@ -28,7 +28,7 @@ h1 {
     font-size: 20px;
 }
 
-ul #navmenu {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
