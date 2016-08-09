@@ -1,35 +1,31 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
-
+* {margin:0;padding:0;box-sizing:border-box;}
 body {
     background: #FFFFFF;
     background-size: cover;
-    color: #000;
+    color: #222;
     font-family: 'Roboto', Helvetica, sans-serif;
     text-align: center;
-    font-size: 15px;
+    font-size: 16px;
 }
 nav {
     text-align: left;
     background-color:rgba(242, 230, 255, 0.5);
     padding:0.5%;
-    color: #000000;
-    font-family: 'Roboto', Helvetica, sans-serif;
-    font-size: 30px;
-    line-height: 200px;
+    font-size: 2em;
+}
+footer {
+    background-color:rgba(242, 230, 255, 0.5);
+    padding:0.5%;
+    font-size: 2em;
 }
 
-
 h1 {
-    color: #000;
-    font-family: 'Roboto', Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 1.5em;
 }
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
     background-color:rgba(242, 230, 255, 0.5);
 }
 
@@ -37,84 +33,21 @@ li {
     display: inline;
   
 }
-body {
-    background: #FFFFFF;
-    background-size: cover;
-    color: #000;
-    font-family: 'Roboto', Helvetica, sans-serif;
-    text-align: center;
-    font-size: 15px;
+header div {
+  float:left;
 }
-section #toprow {
-  padding: 0.5;
-  margin: 0.5;
-  display: inline;
+header nav {
+  float:right;
 }
-
-section #secondrow {
-    padding: 0.5;
-    margin: 0.5;
-    display:inline;
+#toprow img {
+  float:left;
+  padding:.5em;
+  width:33.33%;
 }
-
-div #project1 {
-  width: 30%;
-  height: 250px;
-  float: left;
-  position: relative;
-
-}
-
-div #project2 {
-  width: 30%;
-  height: 250px;
-  float: center;
-  position: relative;
-
-}
-
-div #project3 {
-  width: 30%;
-  height: 250px;
-  float: right;
-  position: relative;
-
-}
-
-div #project4 {
-  width: 30%;
-  height: 250px;
-  float: left;
-  position: relative;
-
-}
-
-div #project5 {
-  width: 30%;
-  height: 250px;
-  float: center;
-  position: relative;
-
-}
-
-div #project6 {
-  width: 30%;
-  height: 250px;
-  float: right;
-  position: relative;
-
-}
-footer {
-  background-color:rgba(242, 230, 255, 0.5);
-    padding:0.5%;
-    color: #000000;
-    font-family: 'Roboto', Helvetica, sans-serif;
-    font-size: 30px;
-  
-}
-
-p {
-  font-size: 14px;
-  font-family: 'Roboto', Helvetica, sans-serif;
-
+.clearfix:after {
+  display:block;
+  clear:both;
+  height:0;
+  visibility:hidden;
+  content:" ";
 }
