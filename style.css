@@ -8,15 +8,23 @@ body {
     text-align: center;
     font-size: 16px;
 }
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
 nav {
     text-align: left;
-    background-color:rgba(242, 230, 255, 0.5);
-    padding:0.5%;
+    background-color:#E8C66A;
+    border: 1px black solid;
+    padding:20px;
     font-size: 2em;
 }
 footer {
-    background-color:rgba(242, 230, 255, 0.5);
-    padding:0.5%;
+    background-color:#FF957E;
+    border: 1px black solid;
+    padding:20px;
     font-size: 2em;
 }
 
@@ -41,8 +49,10 @@ header nav {
 }
 #toprow img {
   float:left;
-  padding:.5em;
+  border: 1px black solid;
+  padding:20px;
   width:33.33%;
+  background color: #FFE2B8;
 }
 .clearfix:after {
   display:block;
