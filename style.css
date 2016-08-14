@@ -46,8 +46,6 @@ header nav {
 }
 #toprow img {
   float:left;
-  border: 1px black solid;
-  padding:20px;
   width:33.33%;
   background color: #FFE2B8;
 }
