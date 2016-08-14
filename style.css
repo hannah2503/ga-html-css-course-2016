@@ -55,13 +55,13 @@ header nav {
   background color: #FFE2B8;
 }
 .clearfix:after {
-  display:block;
-  clear:both;
-  height:0;
-  visibility:hidden;
-  content:" ";
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
-
 #two_column {
     background-color: #FFB7CF;
     border: 1px black solid;
